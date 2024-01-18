@@ -3,7 +3,7 @@
 <CDXML
  CreationProgram="ChemDraw 22.2.0.3300"
  Name="template.cdxml"
- BoundingBox="332.25 119.94 478.59 284.70"
+ BoundingBox="265.50 22.15 500.45 304.20"
  WindowPosition="0 0"
  WindowSize="0 -1073741824"
  WindowIsZoomed="yes"
@@ -83,7 +83,7 @@
 </colortable><fonttable>
 <font id="3" charset="iso-8859-1" name="Arial"/>
 </fonttable><page
- id="2261"
+ id="5721"
  BoundingBox="0 0 540 1439.50"
  HeaderPosition="36"
  FooterPosition="36"
@@ -93,15 +93,15 @@
 ><group
  id="429"
  BoundingBox="391.77 119.94 442.44 130.70"
- Z="252"
+ Z="350"
 ><fragment
  id="430"
  BoundingBox="391.77 119.94 442.44 130.70"
- Z="253"
+ Z="351"
 ><n
  id="122"
  p="408.30 124.50"
- Z="254"
+ Z="352"
  NumHydrogens="2"
  NeedsClean="yes"
  AS="N"
@@ -114,170 +114,227 @@
 ><s font="3" size="10" color="0" face="96">H</s><s font="3" size="10" color="0" face="32">2</s><s font="3" size="10" color="0" face="96">C</s></t></n><n
  id="124"
  p="422.70 124.50"
- Z="255"
+ Z="353"
  NodeType="Fragment"
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2286"
+ id="5725"
 ><n
  id="2287"
  p="422.70 124.50"
+ Z="266"
  Element="15"
  NumHydrogens="0"
-/><n
+ NeedsClean="yes"
+><t
+ p="419.37 128.40"
+ BoundingBox="419.37 120.06 426.03 128.40"
+ LabelJustification="Left"
+><s font="3" size="10" color="0" face="96">P</s></t></n><n
  id="2288"
  p="437.05 124.50"
+ Z="267"
 /><n
  id="2289"
  p="444.22 136.93"
+ Z="268"
 /><n
  id="2290"
  p="458.57 136.93"
+ Z="269"
 /><n
  id="2291"
  p="465.75 124.50"
+ Z="270"
 /><n
  id="2292"
  p="458.57 112.07"
+ Z="271"
 /><n
  id="2293"
  p="444.22 112.07"
+ Z="272"
 /><n
  id="2294"
  p="422.70 110.15"
+ Z="273"
 /><n
  id="2295"
  p="435.13 102.97"
+ Z="274"
 /><n
  id="2296"
  p="435.13 88.62"
+ Z="275"
 /><n
  id="2297"
  p="422.70 81.45"
+ Z="276"
 /><n
  id="2298"
  p="410.27 88.62"
+ Z="277"
 /><n
  id="2299"
  p="410.27 102.97"
+ Z="278"
 /><n
  id="2300"
  p="422.70 138.85"
+ Z="279"
 /><n
  id="2301"
  p="410.27 146.02"
+ Z="280"
 /><n
  id="2302"
  p="410.27 160.37"
+ Z="281"
 /><n
  id="2303"
  p="422.70 167.55"
+ Z="282"
 /><n
  id="2304"
  p="435.13 160.38"
+ Z="283"
 /><n
  id="2305"
  p="435.13 146.02"
+ Z="284"
 /><n
  id="2306"
  p="408.35 124.50"
+ Z="285"
  NodeType="ExternalConnectionPoint"
+ ExternalConnectionNum="1"
 /><b
  id="2307"
+ Z="286"
  B="2304"
  E="2305"
  Order="2"
+ BondCircularOrdering="2308 0 0 2312"
 /><b
  id="2308"
+ Z="287"
  B="2303"
  E="2304"
 /><b
  id="2309"
+ Z="288"
  B="2302"
  E="2303"
  Order="2"
+ BondCircularOrdering="2310 0 0 2308"
 /><b
  id="2310"
+ Z="289"
  B="2301"
  E="2302"
 /><b
  id="2311"
+ Z="290"
  B="2300"
  E="2301"
  Order="2"
+ BondCircularOrdering="2312 2327 0 2310"
 /><b
  id="2312"
+ Z="291"
  B="2300"
  E="2305"
 /><b
  id="2313"
+ Z="292"
  B="2298"
  E="2299"
  Order="2"
+ BondCircularOrdering="2314 0 0 2318"
 /><b
  id="2314"
+ Z="293"
  B="2297"
  E="2298"
 /><b
  id="2315"
+ Z="294"
  B="2296"
  E="2297"
  Order="2"
+ BondCircularOrdering="2316 0 0 2314"
 /><b
  id="2316"
+ Z="295"
  B="2295"
  E="2296"
 /><b
  id="2317"
+ Z="296"
  B="2294"
  E="2295"
  Order="2"
+ BondCircularOrdering="2318 2326 0 2316"
 /><b
  id="2318"
+ Z="297"
  B="2294"
  E="2299"
 /><b
  id="2319"
+ Z="298"
  B="2292"
  E="2293"
  Order="2"
+ BondCircularOrdering="2320 0 0 2324"
 /><b
  id="2320"
+ Z="299"
  B="2291"
  E="2292"
 /><b
  id="2321"
+ Z="300"
  B="2290"
  E="2291"
  Order="2"
+ BondCircularOrdering="2322 0 0 2320"
 /><b
  id="2322"
+ Z="301"
  B="2289"
  E="2290"
 /><b
  id="2323"
+ Z="302"
  B="2288"
  E="2289"
  Order="2"
+ BondCircularOrdering="2324 2325 0 2322"
 /><b
  id="2324"
+ Z="303"
  B="2288"
  E="2293"
 /><b
  id="2325"
+ Z="304"
  B="2287"
  E="2288"
 /><b
  id="2326"
+ Z="305"
  B="2287"
  E="2294"
 /><b
  id="2327"
+ Z="306"
  B="2287"
  E="2300"
 /><b
  id="2328"
+ Z="307"
  B="2306"
  E="2287"
  Order="2"
@@ -288,7 +345,7 @@
  LabelAlignment="Left"
 ><s font="3" size="10" color="0" face="96">PPh</s><s font="3" size="10" color="0" face="32">3</s></t></n><b
  id="127"
- Z="256"
+ Z="354"
  B="122"
  E="124"
  Order="2"
@@ -296,32 +353,44 @@
 /></fragment></group><fragment
  id="1219"
  BoundingBox="333 143.30 363.85 156.45"
- Z="173"
+ Z="345"
 ><n
  id="1218"
  p="336.61 148.35"
- Z="172"
+ Z="344"
  Warning="An atom in this label has an invalid valence."
  NodeType="Unspecified"
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2262"
+ id="5722"
 ><n
  id="2263"
  p="336.61 148.35"
+ Z="308"
  Element="11"
  NumHydrogens="0"
-/><n
+ NeedsClean="yes"
+><t
+ p="333 152.25"
+ BoundingBox="333 143.91 345.78 152.35"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0" face="96">Na</s></t></n><n
  id="2264"
  p="350.96 148.35"
+ Z="309"
  Element="5"
  NumHydrogens="4"
-/></fragment><t
- id="1217"
+ NeedsClean="yes"
+><t
+ p="347.63 152.25"
+ BoundingBox="347.63 143.91 365.69 154.45"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0" face="96">BH4</s></t></n></fragment><t
  p="333 152.25"
  BoundingBox="333 143.30 363.85 156.45"
- Z="171"
  LabelJustification="Left"
  LabelLineHeight="auto"
  LineHeight="auto"
@@ -329,73 +398,114 @@
 ><s font="3" size="10" color="0">NaBH</s><s font="3" size="10" color="0" face="32">4</s></t></n></fragment><fragment
  id="1222"
  BoundingBox="362.25 171.80 389.76 184.95"
- Z="176"
+ Z="347"
 ><n
  id="1221"
  p="365.86 176.85"
- Z="175"
+ Z="346"
  NodeType="Fragment"
  NeedsClean="yes"
+ AS="N"
 ><fragment
- id="2266"
+ id="5723"
 ><n
  id="2267"
  p="360.65 173.26"
+ Z="310"
  Element="53"
  NumHydrogens="0"
-/><n
+ NeedsClean="yes"
+><t
+ p="359.26 177.16"
+ BoundingBox="359.26 168.82 362.04 177.16"
+ LabelJustification="Left"
+><s font="3" size="10" color="0" face="96">I</s></t></n><n
  id="2268"
  p="353.47 185.69"
+ Z="311"
  Element="8"
  NumHydrogens="0"
-/><n
+ NeedsClean="yes"
+><t
+ p="349.58 189.59"
+ BoundingBox="349.58 181.13 357.36 189.69"
+ LabelJustification="Left"
+><s font="3" size="10" color="0" face="96">O</s></t></n><n
  id="2269"
  p="367.82 160.84"
+ Z="312"
  Element="8"
  NumHydrogens="0"
-/><n
+ NeedsClean="yes"
+><t
+ p="363.93 164.74"
+ BoundingBox="363.93 156.28 371.71 164.84"
+ LabelJustification="Left"
+><s font="3" size="10" color="0" face="96">O</s></t></n><n
  id="2270"
  p="348.22 166.09"
+ Z="313"
  Element="8"
  NumHydrogens="0"
-/><n
+ NeedsClean="yes"
+><t
+ p="344.33 169.99"
+ BoundingBox="344.33 161.53 352.11 170.09"
+ LabelJustification="Left"
+><s font="3" size="10" color="0" face="96">O</s></t></n><n
  id="2271"
  p="373.07 180.44"
+ Z="314"
  Element="8"
  NumHydrogens="0"
-/><n
+ NeedsClean="yes"
+><t
+ p="369.18 184.34"
+ BoundingBox="369.18 175.88 376.96 184.44"
+ LabelJustification="Left"
+><s font="3" size="10" color="0" face="96">O</s></t></n><n
  id="2272"
  p="385.50 173.26"
+ Z="315"
  Element="11"
  NumHydrogens="0"
-/><b
+ NeedsClean="yes"
+><t
+ p="381.89 177.16"
+ BoundingBox="381.89 168.82 394.67 177.26"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0" face="96">Na</s></t></n><b
  id="2273"
+ Z="316"
  B="2271"
  E="2272"
 /><b
  id="2274"
+ Z="317"
  B="2267"
  E="2268"
  Order="2"
 /><b
  id="2275"
+ Z="318"
  B="2267"
  E="2269"
  Order="2"
 /><b
  id="2276"
+ Z="319"
  B="2267"
  E="2270"
  Order="2"
 /><b
  id="2277"
+ Z="320"
  B="2267"
  E="2271"
 /></fragment><t
- id="1220"
  p="362.25 180.75"
  BoundingBox="362.25 171.80 389.76 184.95"
- Z="174"
  LabelJustification="Left"
  LabelLineHeight="auto"
  LineHeight="auto"
@@ -403,45 +513,66 @@
 ><s font="3" size="10" color="0">NaIO</s><s font="3" size="10" color="0" face="32">4</s></t></n></fragment><fragment
  id="1225"
  BoundingBox="332.25 195.80 353.09 208.95"
- Z="179"
+ Z="349"
 ><n
  id="1224"
  p="335.58 200.85"
- Z="178"
+ Z="348"
  NodeType="Fragment"
  NeedsClean="yes"
+ AS="N"
 ><fragment
- id="2279"
+ id="5724"
 ><n
  id="2280"
  p="336.08 200.85"
+ Z="321"
  Element="14"
  NumHydrogens="0"
-/><n
+ NeedsClean="yes"
+><t
+ p="336.08 204.75"
+ BoundingBox="331.63 196.29 340.53 204.85"
+ LabelJustification="Center"
+ Justification="Center"
+ LabelAlignment="Center"
+><s font="3" size="10" color="0" face="96">Si</s></t></n><n
  id="2281"
  p="350.43 200.85"
+ Z="322"
  Element="8"
  NumHydrogens="0"
-/><n
+ NeedsClean="yes"
+><t
+ p="346.54 204.75"
+ BoundingBox="346.54 196.29 354.32 204.85"
+ LabelJustification="Left"
+><s font="3" size="10" color="0" face="96">O</s></t></n><n
  id="2282"
  p="321.73 200.85"
+ Z="323"
  Element="8"
  NumHydrogens="0"
-/><b
+ NeedsClean="yes"
+><t
+ p="317.84 204.75"
+ BoundingBox="317.84 196.29 325.62 204.85"
+ LabelJustification="Left"
+><s font="3" size="10" color="0" face="96">O</s></t></n><b
  id="2283"
+ Z="324"
  B="2280"
  E="2281"
  Order="2"
 /><b
  id="2284"
+ Z="325"
  B="2280"
  E="2282"
  Order="2"
 /></fragment><t
- id="1223"
  p="332.25 204.75"
  BoundingBox="332.25 195.80 353.09 208.95"
- Z="177"
  LabelJustification="Left"
  LabelLineHeight="auto"
  LineHeight="auto"
@@ -449,56 +580,76 @@
 ><s font="3" size="10" color="0">SiO</s><s font="3" size="10" color="0" face="32">2</s></t></n></fragment><fragment
  id="1364"
  BoundingBox="382.50 212.30 413.05 223.80"
- Z="347"
+ Z="356"
 ><n
  id="1363"
  p="385.55 217.35"
- Z="346"
+ Z="355"
  NodeType="Fragment"
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2330"
+ id="5726"
 ><n
  id="2331"
  p="253.49 52.35"
+ Z="326"
  Element="14"
  NumHydrogens="0"
-/><n
+ NeedsClean="yes"
+><t
+ p="253.49 56.25"
+ BoundingBox="249.04 47.79 257.94 56.35"
+ LabelJustification="Center"
+ Justification="Center"
+ LabelAlignment="Center"
+><s font="3" size="10" color="0" face="96">Si</s></t></n><n
  id="2332"
  p="267.84 52.35"
+ Z="327"
 /><n
  id="2333"
  p="253.49 38"
+ Z="328"
 /><n
  id="2334"
  p="239.14 52.35"
+ Z="329"
 /><n
  id="2335"
  p="253.49 66.70"
+ Z="330"
  Element="17"
  NumHydrogens="0"
-/><b
+ NeedsClean="yes"
+><t
+ p="249.88 70.60"
+ BoundingBox="249.88 62.14 259.32 70.70"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0" face="96">Cl</s></t></n><b
  id="2336"
+ Z="331"
  B="2331"
  E="2332"
 /><b
  id="2337"
+ Z="332"
  B="2331"
  E="2333"
 /><b
  id="2338"
+ Z="333"
  B="2331"
  E="2334"
 /><b
  id="2339"
+ Z="334"
  B="2331"
  E="2335"
 /></fragment><t
- id="1362"
  p="382.50 221.25"
  BoundingBox="382.50 212.30 413.05 223.80"
- Z="345"
  LabelJustification="Left"
  LabelLineHeight="auto"
  LineHeight="auto"
@@ -506,77 +657,112 @@
 ><s font="3" size="10" color="0">TMSCl</s></t></n></fragment><fragment
  id="1610"
  BoundingBox="455.25 205.55 478.59 218.70"
- Z="623"
+ Z="358"
 ><n
  id="1609"
  p="458.86 210.60"
- Z="622"
+ Z="357"
  NodeType="Fragment"
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2341"
+ id="5727"
 ><n
  id="2342"
  p="451.94 210.60"
+ Z="335"
  Element="8"
  NumHydrogens="1"
-/><n
+ NeedsClean="yes"
+><t
+ p="455.83 214.50"
+ BoundingBox="440.83 206.04 455.83 214.60"
+ LabelJustification="Right"
+ Justification="Right"
+ LabelAlignment="Right"
+><s font="3" size="10" color="0" face="96">OH</s></t></n><n
  id="2343"
  p="466.29 210.60"
+ Z="336"
  Element="8"
  NumHydrogens="1"
-/><b
+ NeedsClean="yes"
+><t
+ p="462.40 214.50"
+ BoundingBox="462.40 206.04 477.40 214.60"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0" face="96">OH</s></t></n><b
  id="2344"
+ Z="337"
  B="2342"
  E="2343"
 /></fragment><t
- id="1608"
  p="455.25 214.50"
  BoundingBox="455.25 205.55 478.59 218.70"
- Z="621"
  LabelJustification="Left"
  LabelLineHeight="auto"
  LineHeight="auto"
  LabelAlignment="Left"
 ><s font="3" size="10" color="0">H</s><s font="3" size="10" color="0" face="32">2</s><s font="3" size="10" color="0">O</s><s font="3" size="10" color="0" face="32">2</s></t></n></fragment><fragment
  id="1614"
- BoundingBox="384.75 242.30 407.54 255.45"
- Z="627"
+ BoundingBox="384.75 242.30 407.53 255.45"
+ Z="360"
 ><n
  id="1613"
  p="388.36 247.35"
- Z="626"
+ Z="359"
  NodeType="Fragment"
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2346"
+ id="5728"
 ><n
  id="2347"
  p="381.44 247.35"
+ Z="338"
  Element="7"
  NumHydrogens="1"
-/><n
+ NeedsClean="yes"
+><t
+ p="385.05 251.25"
+ BoundingBox="370.61 242.91 385.05 251.25"
+ LabelJustification="Right"
+ Justification="Right"
+ LabelAlignment="Right"
+><s font="3" size="10" color="0" face="96">NH</s></t></n><n
  id="2348"
  p="395.79 247.35"
+ Z="339"
  Element="7"
  NumHydrogens="1"
-/><n
+ NeedsClean="yes"
+><t
+ p="392.18 251.25"
+ BoundingBox="392.18 242.91 406.62 251.25"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0" face="96">NH</s></t></n><n
  id="2349"
  p="410.14 247.35"
+ Z="340"
  Element="1"
  NumHydrogens="1"
-/><b
+ NeedsClean="yes"
+><t
+ p="406.53 251.25"
+ BoundingBox="406.53 242.91 420.97 251.25"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0" face="96">HH</s></t></n><b
  id="2350"
+ Z="341"
  B="2347"
  E="2348"
  Order="2"
 /></fragment><t
- id="1612"
  p="384.75 251.25"
- BoundingBox="384.75 242.30 407.54 255.45"
- Z="625"
+ BoundingBox="384.75 242.30 407.53 255.45"
  LabelJustification="Left"
  LabelLineHeight="auto"
  LineHeight="auto"
@@ -584,37 +770,1238 @@
 ><s font="3" size="10" color="0">N</s><s font="3" size="10" color="0" face="32">2</s><s font="3" size="10" color="0">H</s><s font="3" size="10" color="0" face="32">4</s></t></n></fragment><fragment
  id="2152"
  BoundingBox="340.50 271.55 368.57 284.70"
- Z="1321"
+ Z="362"
 ><n
  id="2151"
  p="343.28 276.60"
- Z="1320"
+ Z="361"
  Warning="An atom in this label has an invalid valence."
  NodeType="Unspecified"
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2352"
+ id="5729"
 ><n
  id="2353"
  p="343.28 276.60"
+ Z="342"
  Element="3"
  NumHydrogens="0"
-/><n
+ NeedsClean="yes"
+><t
+ p="340.50 280.50"
+ BoundingBox="340.50 272.16 348.28 280.50"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0" face="96">Li</s></t></n><n
  id="2354"
  p="357.63 276.60"
+ Z="343"
  Element="13"
  NumHydrogens="4"
-/></fragment><t
- id="2150"
+ NeedsClean="yes"
+><t
+ p="354.30 280.50"
+ BoundingBox="354.30 272.16 374.58 282.70"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0" face="96">AlH4</s></t></n></fragment><t
  p="340.50 280.50"
  BoundingBox="340.50 271.55 368.57 284.70"
- Z="1319"
  LabelJustification="Left"
  LabelLineHeight="auto"
  LineHeight="auto"
  LabelAlignment="Left"
-><s font="3" size="10" color="0">LiAlH</s><s font="3" size="10" color="0" face="32">4</s></t></n></fragment><annotation
+><s font="3" size="10" color="0">LiAlH</s><s font="3" size="10" color="0" face="32">4</s></t></n></fragment><fragment
+ id="2446"
+ BoundingBox="432.75 275.30 462.76 288.45"
+ Z="364"
+><n
+ id="2445"
+ p="436.36 280.35"
+ Z="363"
+ Warning="An atom in this label has an invalid valence."
+ NodeType="Unspecified"
+ NeedsClean="yes"
+ AS="N"
+><t
+ p="432.75 284.25"
+ BoundingBox="432.75 275.30 462.76 288.45"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0">CH</s><s font="3" size="10" color="0" face="32">2</s><s font="3" size="10" color="0">N</s><s font="3" size="10" color="0" face="32">2</s></t></n></fragment><fragment
+ id="2545"
+ BoundingBox="312.75 60.05 341.38 73.20"
+ Z="366"
+><n
+ id="2544"
+ p="316.08 65.10"
+ Z="365"
+ Warning="An atom in this label has an invalid valence."
+ NodeType="Unspecified"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="5730"
+><n
+ id="2993"
+ p="195.95 -90.34"
+ Z="133"
+/><n
+ id="2994"
+ p="183.52 -83.17"
+ Z="134"
+/><n
+ id="2995"
+ p="171.09 -90.34"
+ Z="135"
+/><n
+ id="2996"
+ p="158.67 -83.17"
+ Z="136"
+/><n
+ id="2997"
+ p="96.53 -90.34"
+ Z="137"
+/><n
+ id="2998"
+ p="108.96 -83.17"
+ Z="138"
+/><n
+ id="2999"
+ p="121.39 -90.34"
+ Z="139"
+/><n
+ id="3000"
+ p="133.81 -83.17"
+ Z="140"
+/><n
+ id="3001"
+ p="121.39 -133.39"
+ Z="141"
+/><n
+ id="3002"
+ p="133.81 -126.22"
+ Z="142"
+/><n
+ id="3003"
+ p="133.81 -111.87"
+ Z="143"
+/><n
+ id="3004"
+ p="146.24 -104.69"
+ Z="144"
+/><n
+ id="3005"
+ p="146.24 -90.34"
+ Z="145"
+ Element="50"
+ NumHydrogens="0"
+ NeedsClean="yes"
+><t
+ p="146.24 -86.44"
+ BoundingBox="140.12 -94.90 152.36 -86.34"
+ LabelJustification="Center"
+ Justification="Center"
+ LabelAlignment="Center"
+><s font="3" size="10" color="0" face="96">Sn</s></t></n><b
+ id="3006"
+ Z="146"
+ B="3004"
+ E="3005"
+/><b
+ id="3007"
+ Z="147"
+ B="3003"
+ E="3004"
+/><b
+ id="3008"
+ Z="148"
+ B="3002"
+ E="3003"
+/><b
+ id="3009"
+ Z="149"
+ B="3001"
+ E="3002"
+/><b
+ id="3010"
+ Z="150"
+ B="3000"
+ E="3005"
+/><b
+ id="3011"
+ Z="151"
+ B="2999"
+ E="3000"
+/><b
+ id="3012"
+ Z="152"
+ B="2998"
+ E="2999"
+/><b
+ id="3013"
+ Z="153"
+ B="2997"
+ E="2998"
+/><b
+ id="3014"
+ Z="154"
+ B="2996"
+ E="3005"
+/><b
+ id="3015"
+ Z="155"
+ B="2995"
+ E="2996"
+/><b
+ id="3016"
+ Z="156"
+ B="2994"
+ E="2995"
+/><b
+ id="3017"
+ Z="157"
+ B="2993"
+ E="2994"
+/></fragment><t
+ p="312.75 69"
+ BoundingBox="312.75 60.05 341.38 73.20"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0">Bu</s><s font="3" size="10" color="0" face="32">3</s><s font="3" size="10" color="0">Sn</s></t></n></fragment><fragment
+ id="2562"
+ BoundingBox="291.75 219.80 317.03 232.95"
+ Z="368"
+><n
+ id="2561"
+ p="294.80 224.85"
+ Z="367"
+ NodeType="Fragment"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="5731"
+><n
+ id="3020"
+ p="295.30 221.26"
+ Z="161"
+ Element="30"
+ NumHydrogens="0"
+ NeedsClean="yes"
+><t
+ p="292.25 225.16"
+ BoundingBox="292.25 216.82 303.92 225.16"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0" face="96">Zn</s></t></n><n
+ id="3021"
+ p="282.88 228.44"
+ Z="162"
+ Element="17"
+ NumHydrogens="0"
+ NeedsClean="yes"
+><t
+ p="283.99 232.34"
+ BoundingBox="274.55 223.88 283.99 232.44"
+ LabelJustification="Right"
+ Justification="Right"
+ LabelAlignment="Right"
+><s font="3" size="10" color="0" face="96">Cl</s></t></n><n
+ id="3022"
+ p="307.73 228.44"
+ Z="163"
+ Element="17"
+ NumHydrogens="0"
+ NeedsClean="yes"
+><t
+ p="304.12 232.34"
+ BoundingBox="304.12 223.88 313.56 232.44"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0" face="96">Cl</s></t></n><b
+ id="3023"
+ Z="164"
+ B="3020"
+ E="3021"
+/><b
+ id="3024"
+ Z="165"
+ B="3020"
+ E="3022"
+/></fragment><t
+ p="291.75 228.75"
+ BoundingBox="291.75 219.80 317.03 232.95"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0">ZnCl</s><s font="3" size="10" color="0" face="32">2</s></t></n></fragment><fragment
+ id="2931"
+ BoundingBox="271.50 260.29 304.29 271.79"
+ Z="401"
+><n
+ id="2930"
+ p="272.89 265.32"
+ Z="400"
+ NodeType="Fragment"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="5732"
+><n
+ id="3040"
+ p="131.49 81.74"
+ Z="188"
+/><n
+ id="3041"
+ p="119.06 88.91"
+ Z="189"
+/><n
+ id="3042"
+ p="119.06 74.56"
+ Z="190"
+/><n
+ id="3043"
+ p="131.49 67.39"
+ Z="191"
+/><n
+ id="3044"
+ p="143.91 88.91"
+ Z="192"
+ Element="8"
+ NumHydrogens="0"
+ NeedsClean="yes"
+><t
+ p="140.02 92.81"
+ BoundingBox="140.02 84.35 147.80 92.91"
+ LabelJustification="Left"
+><s font="3" size="10" color="0" face="96">O</s></t></n><n
+ id="3045"
+ p="156.34 81.74"
+ Z="193"
+ Element="19"
+ NumHydrogens="0"
+ NeedsClean="yes"
+><t
+ p="153.01 85.64"
+ BoundingBox="153.01 77.30 159.67 85.64"
+ LabelJustification="Left"
+><s font="3" size="10" color="0" face="96">K</s></t></n><b
+ id="3046"
+ Z="194"
+ B="3044"
+ E="3045"
+/><b
+ id="3047"
+ Z="195"
+ B="3040"
+ E="3041"
+/><b
+ id="3048"
+ Z="196"
+ B="3040"
+ E="3042"
+/><b
+ id="3049"
+ Z="197"
+ B="3040"
+ E="3043"
+/><b
+ id="3050"
+ Z="198"
+ B="3040"
+ E="3044"
+/></fragment><t
+ p="271.50 269.24"
+ BoundingBox="271.50 260.29 304.29 271.79"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0" face="2">t</s><s font="3" size="10" color="0">-BuOK</s></t></n></fragment><fragment
+ id="3111"
+ BoundingBox="435.75 51.80 466.60 64.95"
+ Z="469"
+><n
+ id="3110"
+ p="439.08 56.85"
+ Z="468"
+ NodeType="Fragment"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="5733"
+><n
+ id="5734"
+ p="478.48 64.71"
+/><n
+ id="5735"
+ p="466.05 57.53"
+/><n
+ id="5736"
+ p="453.62 64.71"
+/><n
+ id="5737"
+ p="453.62 79.06"
+/><n
+ id="5738"
+ p="466.05 86.23"
+/><n
+ id="5739"
+ p="478.48 79.06"
+/><n
+ id="5740"
+ p="490.90 57.53"
+ NumHydrogens="3"
+/><b
+ id="5741"
+ B="5738"
+ E="5739"
+ Order="2"
+/><b
+ id="5742"
+ B="5737"
+ E="5738"
+/><b
+ id="5743"
+ B="5736"
+ E="5737"
+ Order="2"
+/><b
+ id="5744"
+ B="5735"
+ E="5736"
+/><b
+ id="5745"
+ B="5734"
+ E="5735"
+ Order="2"
+/><b
+ id="5746"
+ B="5734"
+ E="5739"
+/><b
+ id="5747"
+ B="5734"
+ E="5740"
+/></fragment><t
+ id="3109"
+ p="435.75 60.75"
+ BoundingBox="435.75 51.80 466.60 64.95"
+ Z="467"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0">PhCH</s><s font="3" size="10" color="0" face="32">3</s></t></n></fragment><fragment
+ id="3199"
+ BoundingBox="292.50 285.80 317.51 298.95"
+ Z="557"
+><n
+ id="3198"
+ p="295.83 290.85"
+ Z="556"
+ Warning="An atom in this label has an invalid valence."
+ NodeType="Unspecified"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="5749"
+><n
+ id="5750"
+ p="289.87 294.44"
+ Element="13"
+ NumHydrogens="0"
+/><n
+ id="5751"
+ p="302.30 287.26"
+ Element="13"
+ NumHydrogens="0"
+/><n
+ id="5752"
+ p="277.44 287.26"
+ Element="8"
+ NumHydrogens="0"
+/><n
+ id="5753"
+ p="302.30 272.91"
+ Element="8"
+ NumHydrogens="0"
+/><n
+ id="5754"
+ p="314.73 294.44"
+ Element="8"
+ NumHydrogens="0"
+/><b
+ id="5755"
+ B="5751"
+ E="5753"
+/><b
+ id="5756"
+ B="5751"
+ E="5754"
+/><b
+ id="5757"
+ B="5750"
+ E="5751"
+/><b
+ id="5758"
+ B="5750"
+ E="5752"
+ Order="2"
+/></fragment><t
+ id="3197"
+ p="292.50 294.75"
+ BoundingBox="292.50 285.80 317.51 298.95"
+ Z="555"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0">Al</s><s font="3" size="10" color="0" face="32">2</s><s font="3" size="10" color="0">O</s><s font="3" size="10" color="0" face="32">3</s></t></n></fragment><fragment
+ id="3538"
+ BoundingBox="273.75 102.05 297.37 115.20"
+ Z="997"
+><n
+ id="3537"
+ p="277.08 107.10"
+ Z="996"
+ NodeType="Fragment"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="5760"
+><n
+ id="5761"
+ p="155.89 -64.58"
+ Element="8"
+ NumHydrogens="0"
+/><n
+ id="5762"
+ p="155.89 -50.23"
+/><n
+ id="5763"
+ p="168.31 -43.06"
+/><n
+ id="5764"
+ p="131.03 -64.58"
+ Element="8"
+ NumHydrogens="0"
+/><n
+ id="5765"
+ p="131.03 -50.23"
+/><n
+ id="5766"
+ p="118.61 -43.06"
+/><n
+ id="5767"
+ p="143.46 -43.06"
+ Element="8"
+ NumHydrogens="0"
+/><b
+ id="5768"
+ B="5765"
+ E="5766"
+/><b
+ id="5769"
+ B="5765"
+ E="5767"
+/><b
+ id="5770"
+ B="5764"
+ E="5765"
+ Order="2"
+/><b
+ id="5771"
+ B="5762"
+ E="5763"
+/><b
+ id="5772"
+ B="5762"
+ E="5767"
+/><b
+ id="5773"
+ B="5761"
+ E="5762"
+ Order="2"
+/></fragment><t
+ id="3536"
+ p="273.75 111"
+ BoundingBox="273.75 102.05 297.37 115.20"
+ Z="995"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0">Ac</s><s font="3" size="10" color="0" face="32">2</s><s font="3" size="10" color="0">O</s></t></n></fragment><fragment
+ id="3673"
+ BoundingBox="295.50 164.30 328.56 177.45"
+ Z="1168"
+><n
+ id="3672"
+ p="299.11 169.35"
+ Z="1167"
+ Warning="An atom in this label has an invalid valence."
+ NodeType="Unspecified"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="5775"
+><n
+ id="5776"
+ p="293.40 172.94"
+ NumHydrogens="0"
+/><n
+ id="5777"
+ p="280.97 165.76"
+ Element="8"
+ NumHydrogens="0"
+/><n
+ id="5778"
+ p="305.82 165.76"
+ Element="8"
+ NumHydrogens="0"
+/><n
+ id="5779"
+ p="318.25 172.94"
+ NumHydrogens="3"
+/><b
+ id="5780"
+ B="5778"
+ E="5779"
+/><b
+ id="5781"
+ B="5776"
+ E="5777"
+ Order="2"
+/><b
+ id="5782"
+ B="5776"
+ E="5778"
+/></fragment><t
+ id="3671"
+ p="295.50 173.25"
+ BoundingBox="295.50 164.30 328.56 177.45"
+ Z="1166"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0">CO</s><s font="3" size="10" color="0" face="32">2</s><s font="3" size="10" color="0">Me</s></t></n></fragment><fragment
+ id="3678"
+ BoundingBox="445.50 155.30 489.95 168.45"
+ Z="1173"
+><n
+ id="3677"
+ p="447.17 160.35"
+ Z="1172"
+ NodeType="Fragment"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="5784"
+><n
+ id="5785"
+ p="441.45 163.94"
+ NumHydrogens="2"
+/><n
+ id="5786"
+ p="429.02 156.76"
+ Element="8"
+ NumHydrogens="1"
+/><n
+ id="5787"
+ p="453.88 156.76"
+ NumHydrogens="2"
+/><n
+ id="5788"
+ p="466.31 163.94"
+ Element="8"
+ NumHydrogens="1"
+/><b
+ id="5789"
+ B="5787"
+ E="5788"
+/><b
+ id="5790"
+ B="5785"
+ E="5786"
+/><b
+ id="5791"
+ B="5785"
+ E="5787"
+/></fragment><t
+ id="3676"
+ p="445.50 164.25"
+ BoundingBox="445.50 155.30 489.95 168.45"
+ Z="1171"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0">(CH</s><s font="3" size="10" color="0" face="32">2</s><s font="3" size="10" color="0">OH)</s><s font="3" size="10" color="0" face="32">2</s></t></n></fragment><fragment
+ id="3751"
+ BoundingBox="386.25 78.80 408.75 91.95"
+ Z="1280"
+><n
+ id="3750"
+ p="389.86 83.85"
+ Z="1279"
+ NodeType="Fragment"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="5793"
+><n
+ id="5794"
+ p="390.61 87.44"
+ Element="24"
+ NumHydrogens="0"
+/><n
+ id="5795"
+ p="390.61 73.09"
+ Element="8"
+ NumHydrogens="0"
+/><n
+ id="5796"
+ p="378.18 94.61"
+ Element="8"
+ NumHydrogens="0"
+/><n
+ id="5797"
+ p="403.04 94.61"
+ Element="8"
+ NumHydrogens="0"
+/><b
+ id="5798"
+ B="5794"
+ E="5795"
+ Order="2"
+/><b
+ id="5799"
+ B="5794"
+ E="5796"
+ Order="2"
+/><b
+ id="5800"
+ B="5794"
+ E="5797"
+ Order="2"
+/></fragment><t
+ id="3749"
+ p="386.25 87.75"
+ BoundingBox="386.25 78.80 408.75 91.95"
+ Z="1278"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0">CrO</s><s font="3" size="10" color="0" face="32">3</s></t></n></fragment><fragment
+ id="3814"
+ BoundingBox="468.75 240.05 498.76 253.20"
+ Z="1390"
+><n
+ id="3813"
+ p="472.36 245.10"
+ Z="1389"
+ NodeType="Fragment"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="5802"
+><n
+ id="5803"
+ p="473.36 245.10"
+ Element="16"
+ NumHydrogens="0"
+/><n
+ id="5804"
+ p="473.36 230.75"
+ Element="8"
+ NumHydrogens="0"
+/><n
+ id="5805"
+ p="473.36 259.45"
+ Element="8"
+ NumHydrogens="0"
+/><n
+ id="5806"
+ p="487.71 245.10"
+ Element="8"
+ NumHydrogens="1"
+/><n
+ id="5807"
+ p="459.01 245.10"
+ Element="8"
+ NumHydrogens="1"
+/><b
+ id="5808"
+ B="5803"
+ E="5804"
+ Order="2"
+/><b
+ id="5809"
+ B="5803"
+ E="5805"
+ Order="2"
+/><b
+ id="5810"
+ B="5803"
+ E="5806"
+/><b
+ id="5811"
+ B="5803"
+ E="5807"
+/></fragment><t
+ id="3812"
+ p="468.75 249"
+ BoundingBox="468.75 240.05 498.76 253.20"
+ Z="1388"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0">H</s><s font="3" size="10" color="0" face="32">2</s><s font="3" size="10" color="0">SO</s><s font="3" size="10" color="0" face="32">4</s></t></n></fragment><fragment
+ id="3818"
+ BoundingBox="326.25 99.80 368.76 112.95"
+ Z="1394"
+><n
+ id="3817"
+ p="329.58 104.85"
+ Z="1393"
+ NodeType="Fragment"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="5813"
+><n
+ id="5814"
+ p="469.71 288.59"
+ Element="82"
+ NumHydrogens="0"
+/><n
+ id="5815"
+ p="482.14 295.77"
+ Element="8"
+ NumHydrogens="0"
+/><n
+ id="5816"
+ p="494.56 274.24"
+ Element="8"
+ NumHydrogens="0"
+/><n
+ id="5817"
+ p="494.56 288.59"
+/><n
+ id="5818"
+ p="506.99 295.77"
+/><n
+ id="5819"
+ p="476.88 276.17"
+ Element="8"
+ NumHydrogens="0"
+/><n
+ id="5820"
+ p="476.88 251.31"
+ Element="8"
+ NumHydrogens="0"
+/><n
+ id="5821"
+ p="469.71 263.74"
+/><n
+ id="5822"
+ p="455.36 263.74"
+/><n
+ id="5823"
+ p="457.28 281.42"
+ Element="8"
+ NumHydrogens="0"
+/><n
+ id="5824"
+ p="444.86 302.94"
+ Element="8"
+ NumHydrogens="0"
+/><n
+ id="5825"
+ p="444.86 288.59"
+/><n
+ id="5826"
+ p="432.43 281.42"
+/><n
+ id="5827"
+ p="462.53 301.02"
+ Element="8"
+ NumHydrogens="0"
+/><n
+ id="5828"
+ p="484.06 313.45"
+ Element="8"
+ NumHydrogens="0"
+/><n
+ id="5829"
+ p="469.71 313.45"
+/><n
+ id="5830"
+ p="462.53 325.88"
+/><b
+ id="5831"
+ B="5829"
+ E="5830"
+/><b
+ id="5832"
+ B="5828"
+ E="5829"
+ Order="2"
+/><b
+ id="5833"
+ B="5827"
+ E="5829"
+/><b
+ id="5834"
+ B="5825"
+ E="5826"
+/><b
+ id="5835"
+ B="5824"
+ E="5825"
+ Order="2"
+/><b
+ id="5836"
+ B="5823"
+ E="5825"
+/><b
+ id="5837"
+ B="5821"
+ E="5822"
+/><b
+ id="5838"
+ B="5820"
+ E="5821"
+ Order="2"
+/><b
+ id="5839"
+ B="5819"
+ E="5821"
+/><b
+ id="5840"
+ B="5817"
+ E="5818"
+/><b
+ id="5841"
+ B="5816"
+ E="5817"
+ Order="2"
+/><b
+ id="5842"
+ B="5815"
+ E="5817"
+/><b
+ id="5843"
+ B="5814"
+ E="5815"
+/><b
+ id="5844"
+ B="5814"
+ E="5819"
+/><b
+ id="5845"
+ B="5814"
+ E="5823"
+/><b
+ id="5846"
+ B="5814"
+ E="5827"
+/></fragment><t
+ id="3816"
+ p="326.25 108.75"
+ BoundingBox="326.25 99.80 368.76 112.95"
+ Z="1392"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0">Pb(OAc)</s><s font="3" size="10" color="0" face="32">4</s></t></n></fragment><fragment
+ id="3856"
+ BoundingBox="399 291.05 427.06 304.20"
+ Z="1432"
+><n
+ id="3855"
+ p="402.33 296.10"
+ Z="1431"
+ NodeType="Fragment"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="5848"
+><n
+ id="5849"
+ p="403.33 296.10"
+ Element="15"
+ NumHydrogens="0"
+/><n
+ id="5850"
+ p="403.33 281.75"
+ Element="8"
+ NumHydrogens="0"
+/><n
+ id="5851"
+ p="388.98 296.10"
+ Element="17"
+ NumHydrogens="0"
+/><n
+ id="5852"
+ p="403.33 310.45"
+ Element="17"
+ NumHydrogens="0"
+/><n
+ id="5853"
+ p="417.68 296.10"
+ Element="17"
+ NumHydrogens="0"
+/><b
+ id="5854"
+ B="5849"
+ E="5850"
+ Order="2"
+/><b
+ id="5855"
+ B="5849"
+ E="5851"
+/><b
+ id="5856"
+ B="5849"
+ E="5852"
+/><b
+ id="5857"
+ B="5849"
+ E="5853"
+/></fragment><t
+ id="3854"
+ p="399 300"
+ BoundingBox="399 291.05 427.06 304.20"
+ Z="1430"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0">POCl</s><s font="3" size="10" color="0" face="32">3</s></t></n></fragment><fragment
+ id="4635"
+ BoundingBox="456 87.05 500.45 100.20"
+ Z="2420"
+><n
+ id="4634"
+ p="457.67 92.10"
+ Z="2419"
+ NodeType="Fragment"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="5859"
+><n
+ id="5860"
+ p="451.95 95.69"
+ NumHydrogens="2"
+/><n
+ id="5861"
+ p="439.52 88.51"
+ Element="8"
+ NumHydrogens="1"
+/><n
+ id="5862"
+ p="464.38 88.51"
+ NumHydrogens="2"
+/><n
+ id="5863"
+ p="476.81 95.69"
+ Element="8"
+ NumHydrogens="1"
+/><b
+ id="5864"
+ B="5862"
+ E="5863"
+/><b
+ id="5865"
+ B="5860"
+ E="5861"
+/><b
+ id="5866"
+ B="5860"
+ E="5862"
+/></fragment><t
+ id="4633"
+ p="456 96"
+ BoundingBox="456 87.05 500.45 100.20"
+ Z="2418"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0">(CH</s><s font="3" size="10" color="0" face="32">2</s><s font="3" size="10" color="0">OH)</s><s font="3" size="10" color="0" face="32">2</s></t></n></fragment><fragment
+ id="4727"
+ BoundingBox="378 22.15 401.55 36.30"
+ Z="2511"
+><n
+ id="4726"
+ p="381.61 29.85"
+ Z="2510"
+ Element="8"
+ NumHydrogens="3"
+ Charge="1"
+ NeedsClean="yes"
+ AS="N"
+><t
+ id="4725"
+ p="378 33.75"
+ BoundingBox="378 22.15 401.55 36.30"
+ Z="2509"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0">H</s><s font="3" size="10" color="0" face="32">3</s><s font="3" size="10" color="0">O</s><s font="3" size="10" color="0" face="64">+</s></t></n></fragment><fragment
+ id="4766"
+ BoundingBox="265.50 56.30 291.35 69.45"
+ Z="2548"
+><n
+ id="4765"
+ p="268.83 61.35"
+ Z="2547"
+ NodeType="Fragment"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="5868"
+><n
+ id="5869"
+ p="269.83 61.35"
+ Element="50"
+ NumHydrogens="0"
+/><n
+ id="5870"
+ p="284.18 61.35"
+ Element="17"
+ NumHydrogens="0"
+/><n
+ id="5871"
+ p="269.83 47"
+ Element="17"
+ NumHydrogens="0"
+/><n
+ id="5872"
+ p="255.48 61.35"
+ Element="17"
+ NumHydrogens="0"
+/><n
+ id="5873"
+ p="269.83 75.70"
+ Element="17"
+ NumHydrogens="0"
+/><b
+ id="5874"
+ B="5869"
+ E="5870"
+/><b
+ id="5875"
+ B="5869"
+ E="5871"
+/><b
+ id="5876"
+ B="5869"
+ E="5872"
+/><b
+ id="5877"
+ B="5869"
+ E="5873"
+/></fragment><t
+ id="4764"
+ p="265.50 65.25"
+ BoundingBox="265.50 56.30 291.35 69.45"
+ Z="2546"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0">SnCl</s><s font="3" size="10" color="0" face="32">4</s></t></n></fragment><fragment
+ id="5369"
+ BoundingBox="339.75 225.80 360.59 238.95"
+ Z="3256"
+><n
+ id="5368"
+ p="343.08 230.85"
+ Z="3255"
+ NodeType="Fragment"
+ NeedsClean="yes"
+ AS="N"
+><fragment
+ id="5879"
+><n
+ id="5880"
+ p="343.83 234.44"
+ Element="15"
+ NumHydrogens="0"
+/><n
+ id="5881"
+ p="331.41 241.61"
+ Element="35"
+ NumHydrogens="0"
+/><n
+ id="5882"
+ p="356.26 241.61"
+ Element="35"
+ NumHydrogens="0"
+/><n
+ id="5883"
+ p="343.83 220.09"
+ Element="35"
+ NumHydrogens="0"
+/><b
+ id="5884"
+ B="5880"
+ E="5881"
+/><b
+ id="5885"
+ B="5880"
+ E="5882"
+/><b
+ id="5886"
+ B="5880"
+ E="5883"
+/></fragment><t
+ id="5367"
+ p="339.75 234.75"
+ BoundingBox="339.75 225.80 360.59 238.95"
+ Z="3254"
+ LabelJustification="Left"
+ LabelLineHeight="auto"
+ LineHeight="auto"
+ LabelAlignment="Left"
+><s font="3" size="10" color="0">PBr</s><s font="3" size="10" color="0" face="32">3</s></t></n></fragment><t
+ id="4152"
+ p="276.75 195.75"
+ BoundingBox="276.75 186.80 311.75 198.30"
+ Z="1777"
+ Warning="Chemical Interpretation is not possible for this label"
+ LineHeight="auto"
+><s font="3" size="10" color="0" face="2">p-</s><s font="3" size="10" color="0">TsOH</s></t><t
+ id="4508"
+ p="273 33"
+ BoundingBox="273 24.05 302.44 35.55"
+ Z="2254"
+ Warning="Chemical Interpretation is not possible for this label"
+ LineHeight="auto"
+><s font="3" size="10" color="0" face="2">p</s><s font="3" size="10" color="0">-TsCl</s></t><t
+ id="4729"
+ p="429 185.25"
+ BoundingBox="429 176.30 467.92 187.80"
+ Z="2513"
+ Warning="Chemical Interpretation is not possible for this label"
+ LineHeight="auto"
+><s font="3" size="10" color="0">separate</s></t><annotation
  Keyword="Name"
  Content="ethene"
 /></page></CDXML>
