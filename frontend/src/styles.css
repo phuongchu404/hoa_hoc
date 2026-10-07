@@ -168,6 +168,13 @@ button {
   padding: 4px 9px;
   font-size: 12.5px;
 }
+.btn--danger {
+  color: var(--err);
+  border-color: color-mix(in srgb, var(--err) 45%, var(--border));
+}
+.btn--danger:hover:not(:disabled) {
+  border-color: var(--err);
+}
 .btn--ghost {
   border-color: transparent;
   color: var(--muted);

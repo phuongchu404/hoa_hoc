@@ -1,9 +1,11 @@
 """FastAPI application: REST API + the built React frontend, all on localhost."""
 from __future__ import annotations
 
+import json
 import logging
 import os
 import platform
+import threading
 import time
 import uuid
 from contextlib import asynccontextmanager
@@ -99,7 +101,60 @@ def health():
         "chemdraw": exporters.find_chemdraw(),
         "export_dir": str(settings.export_dir),
         "platform": platform.platform(),
+        "desktop": DESKTOP.enabled,
     }
+
+
+# ----------------------------------------------------------------------------- desktop app
+# Used only by ChemImage.app (app.desktop sets DESKTOP.enabled): the web page
+# reports which tabs are open so the app can quit after the last one closes,
+# and offers a "Tắt chương trình" button.
+
+
+class _Desktop:
+    def __init__(self) -> None:
+        self.enabled = False
+        self.on_quit = None  # callable set by app.desktop
+        self.tabs: dict[str, float] = {}  # tab id -> last heartbeat (monotonic)
+        self.last_tab_seen: float | None = None
+        self.lock = threading.Lock()
+
+    def beat(self, tab: str, closing: bool = False) -> None:
+        now = time.monotonic()
+        with self.lock:
+            if closing:
+                self.tabs.pop(tab, None)
+            else:
+                self.tabs[tab] = now
+            self.last_tab_seen = now
+
+    def open_tabs(self, stale_after: float = 90.0) -> int:
+        now = time.monotonic()
+        with self.lock:
+            for k in [k for k, t in self.tabs.items() if now - t > stale_after]:
+                del self.tabs[k]
+            return len(self.tabs)
+
+
+DESKTOP = _Desktop()
+
+
+@app.post("/api/heartbeat", include_in_schema=False)
+async def heartbeat(request: Request):
+    try:
+        body = await request.json()
+    except Exception:  # sendBeacon may post text/plain
+        body = json.loads((await request.body()) or b"{}")
+    DESKTOP.beat(str(body.get("tab", "")), bool(body.get("closing")))
+    return {"ok": True}
+
+
+@app.post("/api/shutdown", include_in_schema=False)
+def shutdown():
+    if not DESKTOP.enabled or DESKTOP.on_quit is None:
+        raise HTTPException(404, "Chỉ dùng trong ứng dụng ChemImage")
+    DESKTOP.on_quit()
+    return {"ok": True}
 
 
 @app.post("/api/recognize", response_model=Document)

@@ -64,6 +64,7 @@ export interface Health {
   load_seconds: number | null
   chemdraw: string | null
   export_dir: string
+  desktop?: boolean
 }
 
 export type ExportFormat = 'cdxml' | 'mol' | 'sdf' | 'rxn' | 'smiles'

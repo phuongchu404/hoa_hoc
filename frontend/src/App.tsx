@@ -47,6 +47,7 @@ export default function App() {
   const [toasts, setToasts] = useState<Toast[]>([])
   const [dragOver, setDragOver] = useState(false)
   const [smilesInput, setSmilesInput] = useState('')
+  const [stopped, setStopped] = useState(false)
   const fileInput = useRef<HTMLInputElement>(null)
   const abortRef = useRef<AbortController | null>(null)
 
@@ -75,6 +76,45 @@ export default function App() {
       stop = true
     }
   }, [])
+
+  // Desktop app only: tell it this tab is open (it quits ~2 min after the last
+  // ChemImage tab closes) and notice when the program has been shut down.
+  useEffect(() => {
+    if (!health?.desktop) return
+    const tab = Math.random().toString(36).slice(2) + Date.now().toString(36)
+    let failures = 0
+    const beat = () =>
+      fetch('/api/heartbeat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ tab }),
+      })
+        .then(() => (failures = 0))
+        .catch(() => {
+          if (++failures >= 2) setStopped(true)
+        })
+    beat()
+    const timer = setInterval(beat, 20000)
+    const onVisible = () => document.visibilityState === 'visible' && beat()
+    const onHide = () => navigator.sendBeacon('/api/heartbeat', JSON.stringify({ tab, closing: true }))
+    document.addEventListener('visibilitychange', onVisible)
+    window.addEventListener('pagehide', onHide)
+    return () => {
+      clearInterval(timer)
+      document.removeEventListener('visibilitychange', onVisible)
+      window.removeEventListener('pagehide', onHide)
+    }
+  }, [health?.desktop])
+
+  const shutdown = async () => {
+    if (!window.confirm('Tắt chương trình ChemImage?\nKết quả chưa lưu trên trang này sẽ mất.')) return
+    try {
+      await fetch('/api/shutdown', { method: 'POST' })
+    } catch {
+      /* the server may close the connection while quitting */
+    }
+    setStopped(true)
+  }
 
   useEffect(() => {
     try {
@@ -326,6 +366,18 @@ export default function App() {
   }
 
   const ready = health?.ready
+  if (stopped) {
+    return (
+      <div className="app">
+        <main className="empty">
+          <div className="drop" style={{ cursor: 'default' }}>
+            <strong>ChemImage đã tắt</strong>
+            <span>Bạn có thể đóng tab này. Muốn dùng lại, mở ChemImage trong thư mục Applications.</span>
+          </div>
+        </main>
+      </div>
+    )
+  }
   return (
     <div
       className={`app ${dragOver ? 'app--drag' : ''}`}
@@ -367,6 +419,11 @@ export default function App() {
           )}
         </div>
         <div className="topbar__actions">
+          {health?.desktop && (
+            <button className="btn btn--danger" onClick={shutdown} title="Tắt hẳn chương trình ChemImage">
+              Tắt chương trình
+            </button>
+          )}
           <button className="btn" onClick={pasteFromClipboard} title="Dán ảnh đang có trong clipboard (hoặc nhấn ⌘V)">
             Dán ảnh ⌘V
           </button>

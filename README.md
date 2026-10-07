@@ -42,6 +42,20 @@ Cách dùng: kéo thả ảnh, dán ảnh bằng ⌘V (ví dụ sau khi chụp m
 
 File đã mở trong ChemDraw được lưu ở `~/Documents/ChemImage Exports/`.
 
+## Đóng gói thành ứng dụng Mac (cho người dùng không rành máy tính)
+
+```bash
+./packaging/macos/build.sh
+```
+
+Tạo ra `dist/ChemImage.app` và `dist/ChemImage-1.0.0-macOS-AppleSilicon.dmg` (khoảng 1.8 GB). File DMG chứa sẵn Python, thư viện, model, giao diện và [hướng dẫn cài đặt](packaging/macos/HUONG_DAN_CAI_DAT.md) dạng PDF. Người dùng chỉ cần kéo app vào Applications rồi nhấp đúp; không cần Terminal, không cần Internet.
+
+- Chạy trên Mac chip Apple Silicon (M1 trở lên), macOS 12+.
+- App ký ad-hoc, chưa công chứng với Apple. Lần đầu mở, người dùng vào *System Settings → Privacy & Security → Open Anyway* (xem hướng dẫn cài đặt).
+- Lần mở đầu tiên mất khoảng 1 phút (macOS kiểm tra ứng dụng). Các lần sau khoảng 10 giây.
+- Tắt: nút **Tắt chương trình** trên trang web, biểu tượng ⌬ trên thanh menu, chuột phải biểu tượng Dock → Thoát, hoặc ⌘Q. Đóng mọi tab ChemImage thì app tự tắt sau 2 phút.
+- Đổi số phiên bản: `VERSION=1.1.0 ./packaging/macos/build.sh`.
+
 ## Gỡ cài đặt
 
 ```bash
